@@ -2,32 +2,32 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div class="bg-gradient-to-b from-green-50 to-green-100">
-      <section class="py-10 sm:py-16 lg:py-24">
-        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+    <div className="bg-gradient-to-b from-green-50 to-green-100">
+      <section className="py-10 sm:py-16 lg:py-24">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
             <div>
-              <h1 class="text-4xl font-bold text-black sm:text-6xl lg:text-7xl">
+              <h1 className="text-4xl font-bold text-black sm:text-6xl lg:text-7xl">
                 Collaborate remotely, with
-                <div class="relative inline-flex">
-                  <span class="absolute inset-x-0 bottom-0 border-b-[30px] border-[#4ADE80]"></span>
-                  <h1 class="relative text-4xl font-bold text-black sm:text-6xl lg:text-7xl">
+                <div className="relative inline-flex">
+                  <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-[#4ADE80]"></span>
+                  <h1 className="relative text-4xl font-bold text-black sm:text-6xl lg:text-7xl">
                     Postcrafts.
                   </h1>
                 </div>
               </h1>
 
-              <p class="mt-8 text-base text-black sm:text-xl">
+              <p className="mt-8 text-base text-black sm:text-xl">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat.
               </p>
 
-              <div class="mt-10 flex items-center space-x-4 sm:space-x-8">
+              <div className="mt-10 flex items-center space-x-4 sm:space-x-8">
                 <a
                   href="#"
                   title=""
-                  class="inline-flex items-center justify-center px-6 lg:px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-orange-500 hover:bg-orange-600 focus:bg-orange-600"
+                  className="inline-flex items-center justify-center px-6 lg:px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-orange-500 hover:bg-orange-600 focus:bg-orange-600"
                   role="button"
                 >
                   {" "}
@@ -37,10 +37,10 @@ const Hero = () => {
                 <a
                   href="#"
                   title=""
-                  class="inline-flex items-center  text-base font-semibold transition-all duration-200  hover:opacity-80"
+                  className="inline-flex items-center  text-base font-semibold transition-all duration-200  hover:opacity-80"
                 >
                   <svg
-                    class="w-10 h-10 mr-3"
+                    className="w-10 h-10 mr-3"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -68,7 +68,7 @@ const Hero = () => {
 
             <div>
               <img
-                class="w-full"
+                className="w-full"
                 src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/hero-img.png"
                 alt=""
               />

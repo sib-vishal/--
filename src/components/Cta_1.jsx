@@ -2,24 +2,24 @@ import React from "react";
 
 const Cta_1 = () => {
   return (
-    <section class="pt-10 bg-gray-100 sm:pt-16 lg:pt-24">
-      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div class="max-w-2xl mx-auto text-center">
-          <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
+    <section className="pt-10 bg-gray-100 sm:pt-16 lg:pt-24">
+      <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
             Real humans are here to help you building your brand
           </h2>
-          <p class="mt-6 text-lg text-gray-900">
+          <p className="mt-6 text-lg text-gray-900">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint.
           </p>
           <a
             href="#"
             title=""
-            class="inline-flex items-center justify-center px-6 py-4 mt-12 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:bg-blue-700"
+            className="inline-flex items-center justify-center px-6 py-4 mt-12 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:bg-blue-700"
             role="button"
           >
             <svg
-              class="w-5 h-5 mr-2 -ml-1"
+              className="w-5 h-5 mr-2 -ml-1"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -37,9 +37,9 @@ const Cta_1 = () => {
         </div>
       </div>
 
-      <div class="container mx-auto 2xl:px-12">
+      <div className="container mx-auto 2xl:px-12">
         <img
-          class="w-full mt-6"
+          className="w-full mt-6"
           src="https://cdn.rareblocks.xyz/collection/celebration/images/team/4/group-of-people.png"
           alt=""
         />

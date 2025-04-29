@@ -2,18 +2,18 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section class="py-10 bg-gray-900 sm:pt-16 lg:pt-24">
-      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div class="grid grid-cols-2 gap-x-5 gap-y-12 md:grid-cols-4 md:gap-x-12">
+    <section className="py-10 bg-gray-900 sm:pt-16 lg:pt-24">
+      <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="grid grid-cols-2 gap-x-5 gap-y-12 md:grid-cols-4 md:gap-x-12">
           <div>
-            <p class="text-base text-gray-500">Company</p>
+            <p className="text-base text-gray-500">Company</p>
 
-            <ul class="mt-8 space-y-4">
+            <ul className="mt-8 space-y-4">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   About{" "}
@@ -23,7 +23,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Features{" "}
@@ -33,7 +33,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Works{" "}
@@ -43,7 +43,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Career{" "}
@@ -53,14 +53,14 @@ const Footer = () => {
           </div>
 
           <div>
-            <p class="text-base text-gray-500">Help</p>
+            <p className="text-base text-gray-500">Help</p>
 
-            <ul class="mt-8 space-y-4">
+            <ul className="mt-8 space-y-4">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Customer Support{" "}
@@ -70,7 +70,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Delivery Details{" "}
@@ -80,7 +80,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Terms & Conditions{" "}
@@ -90,7 +90,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Privacy Policy{" "}
@@ -100,14 +100,14 @@ const Footer = () => {
           </div>
 
           <div>
-            <p class="text-base text-gray-500">Resources</p>
+            <p className="text-base text-gray-500">Resources</p>
 
-            <ul class="mt-8 space-y-4">
+            <ul className="mt-8 space-y-4">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Free eBooks{" "}
@@ -117,7 +117,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Development Tutorial{" "}
@@ -127,7 +127,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   How to - Blog{" "}
@@ -137,7 +137,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   YouTube Playlist{" "}
@@ -147,14 +147,14 @@ const Footer = () => {
           </div>
 
           <div>
-            <p class="text-base text-gray-500">Extra Links</p>
+            <p className="text-base text-gray-500">Extra Links</p>
 
-            <ul class="mt-8 space-y-4">
+            <ul className="mt-8 space-y-4">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Customer Support{" "}
@@ -164,7 +164,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Delivery Details{" "}
@@ -174,7 +174,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Terms & Conditions{" "}
@@ -184,7 +184,7 @@ const Footer = () => {
                 <a
                   href="#"
                   title=""
-                  class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Privacy Policy{" "}
@@ -194,24 +194,24 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr class="mt-16 mb-10 border-gray-800" />
+        <hr className="mt-16 mb-10 border-gray-800" />
 
-        <div class="flex flex-wrap items-center justify-between">
+        <div className="flex flex-wrap items-center justify-between">
           <img
-            class="h-8 auto md:order-1"
+            className="h-8 auto md:order-1"
             src="https://cdn.rareblocks.xyz/collection/celebration/images/logo-alt.svg"
             alt=""
           />
 
-          <ul class="flex items-center space-x-3 md:order-3">
+          <ul className="flex items-center space-x-3 md:order-3">
             <li>
               <a
                 href="#"
                 title=""
-                class="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
               >
                 <svg
-                  class="w-4 h-4"
+                  className="w-4 h-4"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
@@ -225,10 +225,10 @@ const Footer = () => {
               <a
                 href="#"
                 title=""
-                class="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
               >
                 <svg
-                  class="w-4 h-4"
+                  className="w-4 h-4"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
@@ -242,10 +242,10 @@ const Footer = () => {
               <a
                 href="#"
                 title=""
-                class="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
               >
                 <svg
-                  class="w-4 h-4"
+                  className="w-4 h-4"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
@@ -261,10 +261,10 @@ const Footer = () => {
               <a
                 href="#"
                 title=""
-                class="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
               >
                 <svg
-                  class="w-4 h-4"
+                  className="w-4 h-4"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
@@ -279,7 +279,7 @@ const Footer = () => {
             </li>
           </ul>
 
-          <p class="w-full mt-8 text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">
+          <p className="w-full mt-8 text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">
             © Copyright {new Date().getFullYear()}, All Rights Reserved by Postcraft
           </p>
         </div>
