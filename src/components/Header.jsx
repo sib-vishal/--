@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Header = () => {
@@ -7,7 +8,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0">
                 <a href="#" title="" className="flex">
-                    <img className="w-auto h-8" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/logo.svg" alt="" />
+                <Image
+            width={200}
+            height={100} className="w-auto h-8" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/logo.svg" alt="" />
                 </a>
             </div>
 

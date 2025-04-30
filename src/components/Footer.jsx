@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -197,7 +198,9 @@ const Footer = () => {
         <hr className="mt-16 mb-10 border-gray-800" />
 
         <div className="flex flex-wrap items-center justify-between">
-          <img
+          <Image
+            width={200}
+            height={100}
             className="h-8 auto md:order-1"
             src="https://cdn.rareblocks.xyz/collection/celebration/images/logo-alt.svg"
             alt=""
@@ -280,7 +283,8 @@ const Footer = () => {
           </ul>
 
           <p className="w-full mt-8 text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">
-            © Copyright {new Date().getFullYear()}, All Rights Reserved by Postcraft
+            © Copyright {new Date().getFullYear()}, All Rights Reserved by
+            Postcraft
           </p>
         </div>
       </div>
