@@ -1,12 +1,14 @@
-import About from "@/components/About";
-import Blog from "@/components/Blog";
-import Contact from "@/components/Contact";
-import Cta_1 from "@/components/Cta_1";
-import Faq from "@/components/Faq";
-import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
-import Services from "@/components/Services";
+import dynamic from "next/dynamic";
 import React from "react";
+
+const Hero = dynamic(() => import("@/components/Hero"));
+const About = dynamic(() => import("@/components/About"));
+const Services = dynamic(() => import("@/components/Services"));
+const Cta_1 = dynamic(() => import("@/components/Cta_1"));
+const Projects = dynamic(() => import("@/components/Projects"));
+const Blog = dynamic(() => import("@/components/Blog"));
+const Faq = dynamic(() => import("@/components/Faq"));
+const Contact = dynamic(() => import("@/components/Contact"));
 
 const Home = () => {
   return (
@@ -14,13 +16,14 @@ const Home = () => {
       <Hero />
       <About />
       <Services />
-      <Cta_1/>
-      <Projects/>
+      <Cta_1 />
+      <Projects />
       <Blog />
-      <Faq/>
-      <Contact/>
+      <Faq />
+      <Contact />
     </div>
   );
 };
 
 export default Home;
+

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Cta_1 = () => {
@@ -26,9 +27,11 @@ const Cta_1 = () => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+
+                strokeLinecap="round"
+
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
               />
             </svg>
@@ -38,7 +41,9 @@ const Cta_1 = () => {
       </div>
 
       <div className="container mx-auto 2xl:px-12">
-        <img
+      <Image
+            width={1200}
+            height={400}
           className="w-full mt-6"
           src="https://cdn.rareblocks.xyz/collection/celebration/images/team/4/group-of-people.png"
           alt=""
