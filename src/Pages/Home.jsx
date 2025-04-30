@@ -6,7 +6,7 @@ const About = dynamic(() => import("@/components/About"));
 const Services = dynamic(() => import("@/components/Services"));
 const Cta_1 = dynamic(() => import("@/components/Cta_1"));
 const Projects = dynamic(() => import("@/components/Projects"));
-const Blog = dynamic(() => import("@/components/Blog"),{ ssr: false });
+const Blog = dynamic(() => import("@/components/Blog"));
 const Faq = dynamic(() => import("@/components/Faq"));
 const Contact = dynamic(() => import("@/components/Contact"));
 
