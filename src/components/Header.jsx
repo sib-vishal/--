@@ -10,6 +10,7 @@ const Header = () => {
                 <a href="#" title="" className="flex">
                 <Image
             width={200}
+            priority
             height={100} className="w-auto h-8" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/logo.svg" alt="" />
                 </a>
             </div>

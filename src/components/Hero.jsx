@@ -71,7 +71,9 @@ const Hero = () => {
               <Image
                 width={700}
                 height={500}
+                priority
                 className="w-full"
+                
                 src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/hero-img.png"
                 alt=""
               />
